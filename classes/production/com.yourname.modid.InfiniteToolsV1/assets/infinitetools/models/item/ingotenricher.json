@@ -1,5 +1,5 @@
 {
-    "parent": "infinitetools:block/ore_scandium",
+    "parent": "infinitetools:block/ingotenricher",
     "display": {
         "thirdperson": {
             "rotation": [ 10, -45, 170 ],
