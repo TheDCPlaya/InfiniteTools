@@ -3,10 +3,10 @@ package com.github.thedcplaya.infinitetools;
 import com.github.thedcplaya.infinitetools.ModRecipes.ModRecipes;
 import com.github.thedcplaya.infinitetools.block.ModBlocks;
 import com.github.thedcplaya.infinitetools.item.ModItems;
+import com.github.thedcplaya.infinitetools.item.Tool.ItemSword;
 import com.github.thedcplaya.infinitetools.proxy.CommonProxy;
 import com.github.thedcplaya.infinitetools.util.InfiniteToolsTab;
 import net.minecraft.block.Block;
-import net.minecraft.block.material.Material;
 import net.minecraft.item.Item;
 import net.minecraftforge.client.event.ModelRegistryEvent;
 import net.minecraftforge.common.util.EnumHelper;
@@ -17,7 +17,8 @@ import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
-import scala.concurrent.duration.Duration;
+
+import javax.tools.Tool;
 
 @Mod(modid = InfiniteTools.MODID, name = InfiniteTools.NAME, version = InfiniteTools.VERSION)
 public class InfiniteTools

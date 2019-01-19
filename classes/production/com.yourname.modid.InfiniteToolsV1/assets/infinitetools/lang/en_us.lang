@@ -2,6 +2,12 @@
 item.ingot_scandium.name=Scandium Ingot
 item.ingot_enrichedscandium.name=Enriched Scandium
 item.scandium_sword.name=Scandium Sword
+
+
+
+
+
+
 # Blocks
 tile.ore_scandium.name=Scandium Ore
 

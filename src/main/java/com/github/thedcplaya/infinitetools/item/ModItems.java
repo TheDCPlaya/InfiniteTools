@@ -1,7 +1,8 @@
 package com.github.thedcplaya.infinitetools.item;
 
 import com.github.thedcplaya.infinitetools.InfiniteTools;
-import com.github.thedcplaya.infinitetools.Tool.ItemSword;
+import com.github.thedcplaya.infinitetools.item.Tool.ItemPickaxe;
+import com.github.thedcplaya.infinitetools.item.Tool.ItemSword;
 import net.minecraft.item.Item;
 import net.minecraftforge.registries.IForgeRegistry;
 
@@ -9,9 +10,8 @@ public class ModItems
 {
     public static ItemBase ingotScandium = new ItemBase("ingot_scandium");
     public static ItemBase ingotEnrichedScandium = new ItemBase("ingot_enrichedscandium" );
-
-
     public static ItemSword scandiumSword = new ItemSword(InfiniteTools.enrichedscandiumToolMaterial, "scandium_sword");
+    public static ItemPickaxe scandiumPickaxe = new ItemPickaxe(InfiniteTools.enrichedscandiumToolMaterial, "scandium_pickaxe");
 
 
 
@@ -29,6 +29,11 @@ public class ModItems
                 (
                         scandiumSword
                 );
+        registry.registerAll
+                (
+                        scandiumPickaxe
+                );
+
 
     }
 
@@ -36,6 +41,9 @@ public class ModItems
     {
         ingotScandium.registerItemModel();
         ingotEnrichedScandium.registerItemModel();
+        scandiumSword.registerItemModel();
+        scandiumPickaxe.registerItemModel();
+
 
     }
 
