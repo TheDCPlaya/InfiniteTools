@@ -1,7 +1,0 @@
-{
-    "parent": "block/cube_all",
-    "textures": {
-        "all": "infinitetools:ore_scandium",
-        "particles": "#all"
-    }
-}
