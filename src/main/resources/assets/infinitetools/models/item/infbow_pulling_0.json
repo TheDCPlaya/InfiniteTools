@@ -1,0 +1,6 @@
+{
+    "parent": "item/bow",
+    "textures": {
+        "layer0": "infinitetools:items/infbow_pulling_0"
+    }
+}
