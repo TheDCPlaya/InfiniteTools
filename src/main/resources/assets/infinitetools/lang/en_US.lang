@@ -1,0 +1,19 @@
+item.infinitetools:infarrow.name=Scandium Arrow
+item.infinitetools:ingot_scandium.name=Scandium Ingot
+item.infinitetools:infpick.name=Scandium Pickaxe
+item.infinitetools:infsword.name=Scandium Sword
+item.infinitetools:infshovel.name=Scandium Shovel
+item.infinitetools:infhoe.name=Scandium Hoe
+item.infinitetools:infaxe.name=Scandium Axe
+item.infinitetools:infbow.name=Scandium Bow
+item.infinitetools:infhead.name=Scandium Helm
+item.infinitetools:infchest.name=Scandium Chestplate
+item.infinitetools:inflegs.name=Scandium Leggins
+item.infinitetools:infboots.name=Scandium Boots
+item.infinitetools:infenrichedingot.name=Enriched Scandium Ingot
+item.infinitetools:infarrowhead.name=Scandium Arrow Head
+
+tile.infinitetools:orescandium.name=Scandium Ore
+tile.infinitetools:ingotenricher.name=Ingot Enricher
+
+itemGroup.infinitetools=Infinite Tools
