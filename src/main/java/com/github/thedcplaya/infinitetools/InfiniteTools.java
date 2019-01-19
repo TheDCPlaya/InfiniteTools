@@ -1,12 +1,15 @@
 package com.github.thedcplaya.infinitetools;
 
+import com.github.thedcplaya.infinitetools.ModRecipes.ModRecipes;
 import com.github.thedcplaya.infinitetools.block.ModBlocks;
 import com.github.thedcplaya.infinitetools.item.ModItems;
 import com.github.thedcplaya.infinitetools.proxy.CommonProxy;
 import com.github.thedcplaya.infinitetools.util.InfiniteToolsTab;
 import net.minecraft.block.Block;
+import net.minecraft.block.material.Material;
 import net.minecraft.item.Item;
 import net.minecraftforge.client.event.ModelRegistryEvent;
+import net.minecraftforge.common.util.EnumHelper;
 import net.minecraftforge.event.RegistryEvent;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.SidedProxy;
@@ -40,6 +43,7 @@ public class InfiniteTools
     @Mod.EventHandler
     public void postInit(FMLPostInitializationEvent event)
     {
+        ModRecipes.init();
     }
 
     @SidedProxy(serverSide = "com.github.thedcplaya.infinitetools.proxy.CommonProxy", clientSide = "com.github.thedcplaya.infinitetools.proxy.ClientProxy")
@@ -68,6 +72,9 @@ public class InfiniteTools
         }
 
     }
-    public static final InfiniteToolsTab creativeTab = new InfiniteToolsTab()
+    public static final InfiniteToolsTab creativeTab = new InfiniteToolsTab();
 
-}
+
+    public static final Item.ToolMaterial enrichedscandiumToolMaterial = (Item.ToolMaterial) EnumHelper.addToolMaterial("ENRICHED SCANDIUM", 25, 0, 6, 999999999, 14);
+    }
+

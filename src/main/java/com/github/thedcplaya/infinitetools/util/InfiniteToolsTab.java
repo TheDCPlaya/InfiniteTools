@@ -5,6 +5,7 @@ import com.github.thedcplaya.infinitetools.item.ModItems;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.ItemStack;
 
+
 public class InfiniteToolsTab extends CreativeTabs
 {
     public InfiniteToolsTab()
@@ -15,5 +16,7 @@ public class InfiniteToolsTab extends CreativeTabs
     @Override
     public ItemStack getTabIconItem() {
         return new ItemStack(ModItems.ingotScandium);
+
+
     }
 }
