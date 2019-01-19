@@ -1,8 +1,0 @@
-{
-    "variants": {
-        "facing=north": { "model": "infinitetools:ingotenricher" },
-        "facing=south": { "model": "infinitetools:ingotenricher", "y": 180 },
-        "facing=west":  { "model": "infinitetools:ingotenricher", "y": 270 },
-        "facing=east":  { "model": "infinitetools:ingotenricher", "y": 90 }
-    }
-}

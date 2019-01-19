@@ -13,7 +13,7 @@ item.infinitetools:infboots.name=Scandium Boots
 item.infinitetools:infenrichedingot.name=Enriched Scandium Ingot
 item.infinitetools:infarrowhead.name=Scandium Arrow Head
 
-tile.infinitetools:orescandium.name=Scandium Ore
+tile.infinitetools:ore_scandium.name=Scandium Ore
 tile.infinitetools:ingotenricher.name=Ingot Enricher
 
 itemGroup.infinitetools=Infinite Tools
