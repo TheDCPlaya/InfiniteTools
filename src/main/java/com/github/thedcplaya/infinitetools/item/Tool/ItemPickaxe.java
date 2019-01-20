@@ -12,6 +12,7 @@ public class ItemPickaxe extends net.minecraft.item.ItemPickaxe {
         setRegistryName(name);
         setUnlocalizedName(name);
         this.name = name;
+        setCreativeTab(InfiniteTools.creativeTab);
     }
 
     public void registerItemModel() { InfiniteTools.proxy.registerItemRenderer(this, 0, name);

@@ -13,6 +13,7 @@ public class ItemSword extends net.minecraft.item.ItemSword {
         setRegistryName(name);
         setUnlocalizedName(name);
         this.name = name;
+        setCreativeTab(InfiniteTools.creativeTab);
     }
 
     public void registerItemModel() {

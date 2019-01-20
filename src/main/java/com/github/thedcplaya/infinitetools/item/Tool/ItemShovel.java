@@ -12,6 +12,7 @@ public class ItemShovel extends ItemSpade {
         setRegistryName(name);
         setUnlocalizedName(name);
         this.name = name;
+        setCreativeTab(InfiniteTools.creativeTab);
     }
 
     public void registerItemModel() { InfiniteTools.proxy.registerItemRenderer(this, 0, name); }
