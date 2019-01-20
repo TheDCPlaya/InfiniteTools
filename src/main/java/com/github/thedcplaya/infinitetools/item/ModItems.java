@@ -36,45 +36,16 @@ public class ModItems
     {
         registry.registerAll
                 (
-                        ingotScandium
-                );
-        registry.registerAll
-                (
-                        ingotEnrichedScandium
-                );
-        registry.registerAll
-                (
-                        scandiumSword
-                );
-        registry.registerAll
-                (
-                        scandiumPickaxe
-                );
-        registry.registerAll
-                (
-                        scandiumAxe
-                );
-        registry.registerAll
-                (
-                        scandiumShovel
-                );
-        registry.registerAll
-                (
-                        scandiumHelm
-                );
-
-        registry.registerAll
-                (
-                        scandiumChestplate
-                );
-
-        registry.registerAll
-                (
-                        scandiumLeggins
-                );
-
-        registry.registerAll
-                (
+                        ingotScandium,
+                        ingotEnrichedScandium,
+                        scandiumSword,
+                        scandiumPickaxe,
+                        scandiumAxe,
+                        scandiumShovel,
+     //armor
+                        scandiumHelm,
+                        scandiumChestplate,
+                        scandiumLeggins,
                         scandiumBoots
                 );
 
