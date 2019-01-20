@@ -1,5 +1,6 @@
 package com.github.thedcplaya.infinitetools;
 
+import WorldGeneration.ModWorldGen;
 import com.github.thedcplaya.infinitetools.ModRecipes.ModRecipes;
 import com.github.thedcplaya.infinitetools.block.ModBlocks;
 import com.github.thedcplaya.infinitetools.item.ModItems;
@@ -18,6 +19,7 @@ import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
+import net.minecraftforge.fml.common.registry.GameRegistry;
 
 @Mod(modid = InfiniteTools.MODID, name = InfiniteTools.NAME, version = InfiniteTools.VERSION)
 public class InfiniteTools
@@ -33,6 +35,7 @@ public class InfiniteTools
     @Mod.EventHandler
     public void preInit(FMLPreInitializationEvent event)
     {
+        GameRegistry.registerWorldGenerator( new ModWorldGen(), 3);
     }
 
     @Mod.EventHandler

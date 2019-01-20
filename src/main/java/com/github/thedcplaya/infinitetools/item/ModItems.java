@@ -28,6 +28,7 @@ public class ModItems
     public static ItemArmor scandiumLeggins = new ItemArmor(InfiniteTools.enrichedscandiumArmorMaterial, EntityEquipmentSlot.LEGS, "scandium_leggins");
     public static ItemArmor scandiumBoots = new ItemArmor(InfiniteTools.enrichedscandiumArmorMaterial, EntityEquipmentSlot.FEET, "scandium_boots");
 
+    //Items
 
 
 

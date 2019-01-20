@@ -16,14 +16,16 @@ public class ModBlocks
 
     public static void register(IForgeRegistry<Block> registry)
     {
-    registry.registerAll(oreScandium);
+    registry.registerAll
+            (oreScandium);
 
     }
 
 
     public static void registerItemBlocks(IForgeRegistry<Item> registry)
     {
-        registry.registerAll(oreScandium.createItemblock());
+        registry.registerAll
+                (oreScandium.createItemblock());
 
 
 

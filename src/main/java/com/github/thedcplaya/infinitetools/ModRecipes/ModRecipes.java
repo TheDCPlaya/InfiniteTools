@@ -11,6 +11,8 @@ public class ModRecipes
 
         {
             GameRegistry.addSmelting(ModBlocks.oreScandium, new ItemStack(ModItems.ingotScandium), 0.7f);
-
         }
-}
+
+
+    }
+
